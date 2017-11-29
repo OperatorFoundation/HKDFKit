@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author             = { "Frederic Jacobs" => "github@fredericjacobs.com" }
   s.social_media_url = "https://twitter.com/FredericJacobs"
 
-  s.source       = { :git => "https://github.com/FredericJacobs/HKDFKit.git", :tag => "0.0.4" }
+  s.source       = { :git => "https://github.com/OperatorFoundation/HKDFKit.git" }
 
   s.source_files  = 'HKDFKit/HKDFKit/*{h,m}'
 
