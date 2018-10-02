@@ -10,7 +10,7 @@ import HKDFKit_ObjC
  *
  *  @return The derived key material
  */
-func deriveKey(seed:Data, info:Data, salt:Data, outputSize:Int32) -> Data
+public func deriveKey(seed:Data, info:Data, salt:Data, outputSize:Int32) -> Data
 {
     return HKDFKit.deriveKey(seed, info: info, salt: salt, outputSize: outputSize)
 }
